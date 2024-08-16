@@ -11,7 +11,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: latest
-    created: "2024-08-16T15:55:42.858808905Z"
+    created: "2024-08-16T15:56:53.172717774Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -40,7 +40,7 @@ entries:
             Dissable probes
     apiVersion: v2
     appVersion: latest
-    created: "2024-08-16T15:55:42.856657435Z"
+    created: "2024-08-16T15:56:53.170654428Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -71,7 +71,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: latest
-    created: "2024-08-16T15:55:42.854794615Z"
+    created: "2024-08-16T15:56:53.168803282Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -99,7 +99,7 @@ entries:
             Moved to angelnu
     apiVersion: v2
     appVersion: latest
-    created: "2024-08-16T15:55:42.852346274Z"
+    created: "2024-08-16T15:56:53.166108442Z"
     description: A Helm chart for Kubernetes
     digest: 9cece8c87afa5192eddc629b3faec5483b1067ef55230b6e76a8d13ea381bbea
     maintainers:
@@ -121,7 +121,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: v1.8.1
-    created: "2024-08-16T15:55:42.873496356Z"
+    created: "2024-08-16T15:56:53.187792449Z"
     dependencies:
     - condition: cert-manager.enabled
       name: cert-manager
@@ -159,7 +159,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: v1.8.1
-    created: "2024-08-16T15:55:42.867466805Z"
+    created: "2024-08-16T15:56:53.181219734Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -197,7 +197,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: 1.2.0
-    created: "2024-08-16T15:55:42.863429432Z"
+    created: "2024-08-16T15:56:53.177168265Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -235,7 +235,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-08-16T15:55:42.878480902Z"
+    created: "2024-08-16T15:56:53.192351923Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -275,7 +275,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-08-16T15:55:42.875497866Z"
+    created: "2024-08-16T15:56:53.190152212Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -312,7 +312,7 @@ entries:
             Disable openMetrics service
     apiVersion: v2
     appVersion: 0.6.2
-    created: "2024-08-16T15:55:42.902973127Z"
+    created: "2024-08-16T15:56:53.215995592Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -345,7 +345,7 @@ entries:
             Move config to /data
     apiVersion: v2
     appVersion: 0.6.2
-    created: "2024-08-16T15:55:42.895889428Z"
+    created: "2024-08-16T15:56:53.209832747Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -381,7 +381,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: 0.6.2
-    created: "2024-08-16T15:55:42.889842918Z"
+    created: "2024-08-16T15:56:53.203832105Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -418,7 +418,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: 0.6.2
-    created: "2024-08-16T15:55:42.883820709Z"
+    created: "2024-08-16T15:56:53.197942174Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -451,7 +451,34 @@ entries:
           description: mount CNI host paths on the same location inside multus - fixes broken k3s current symlink
     apiVersion: v2
     appVersion: v4.0.1
-    created: "2024-08-16T15:55:42.919984556Z"
+    created: "2024-08-16T15:56:53.235721433Z"
+    dependencies:
+    - name: common
+      repository: https://bjw-s.github.io/helm-charts
+      version: 1.5.1
+    description: multus CNI allows multiple NICs per pod
+    digest: f21080d67ca58cfcb33a765e31f2c8b868238c21f0179b4da61cbc03997b6a3b
+    home: https://github.com/angelnu/helm-charts/tree/master/charts/stable/multus
+    icon: https://raw.githubusercontent.com/k8snetworkplumbingwg/multus-cni/master/docs/images/Multus.png
+    keywords:
+    - multus
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: git@angelnu.com
+      name: angelnu
+    name: multus
+    sources:
+    - https://github.com/k8snetworkplumbingwg/multus-cni
+    urls:
+    - https://angelnu.github.io/helm-charts/apps/multus-5.0.6.tgz
+    version: 5.0.6
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: fixed
+          description: mount CNI host paths on the same location inside multus - fixes broken k3s current symlink
+    apiVersion: v2
+    appVersion: v4.0.1
+    created: "2024-08-16T15:56:53.233597073Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -480,7 +507,7 @@ entries:
           description: pass the CNI log level configuration
     apiVersion: v2
     appVersion: v4.0.1
-    created: "2024-08-16T15:55:42.917929116Z"
+    created: "2024-08-16T15:56:53.231600743Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -507,7 +534,7 @@ entries:
           description: pass the CNI bin configuration (fix for k3s)
     apiVersion: v2
     appVersion: v4.0.1
-    created: "2024-08-16T15:55:42.915931514Z"
+    created: "2024-08-16T15:56:53.229562565Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -536,7 +563,7 @@ entries:
           description: Give the ability to set the host netns folder
     apiVersion: v2
     appVersion: v4.0.1
-    created: "2024-08-16T15:55:42.913881563Z"
+    created: "2024-08-16T15:56:53.227531881Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -566,7 +593,7 @@ entries:
           description: Fixed home link
     apiVersion: v2
     appVersion: v4.0.1
-    created: "2024-08-16T15:55:42.910961523Z"
+    created: "2024-08-16T15:56:53.224663133Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -597,7 +624,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: v4.0.1
-    created: "2024-08-16T15:55:42.908828417Z"
+    created: "2024-08-16T15:56:53.222488568Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -628,7 +655,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: v3.7.1
-    created: "2024-08-16T15:55:42.906815076Z"
+    created: "2024-08-16T15:56:53.220483202Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -660,7 +687,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: v3.7.1
-    created: "2024-08-16T15:55:42.904809879Z"
+    created: "2024-08-16T15:56:53.218481231Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -698,7 +725,7 @@ entries:
               url: https://github.com/angelnu/gateway-admision-controller/pull/144
     apiVersion: v2
     appVersion: v1.8.1
-    created: "2024-08-16T15:55:42.944742956Z"
+    created: "2024-08-16T15:56:53.259234326Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -731,7 +758,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: v1.8.1
-    created: "2024-08-16T15:55:42.942540872Z"
+    created: "2024-08-16T15:56:53.256685929Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -764,7 +791,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: v1.8.1
-    created: "2024-08-16T15:55:42.93957213Z"
+    created: "2024-08-16T15:56:53.254073722Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -797,7 +824,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: v1.8.1
-    created: "2024-08-16T15:55:42.937365868Z"
+    created: "2024-08-16T15:56:53.251939023Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -830,7 +857,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: v1.8.1
-    created: "2024-08-16T15:55:42.93522632Z"
+    created: "2024-08-16T15:56:53.249763867Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -863,7 +890,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: v1.8.1
-    created: "2024-08-16T15:55:42.932548517Z"
+    created: "2024-08-16T15:56:53.247499003Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -896,7 +923,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: v1.8.1
-    created: "2024-08-16T15:55:42.929470092Z"
+    created: "2024-08-16T15:56:53.244550657Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -929,7 +956,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: v1.8.1
-    created: "2024-08-16T15:55:42.926877347Z"
+    created: "2024-08-16T15:56:53.242378777Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -963,7 +990,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: v1.8.1
-    created: "2024-08-16T15:55:42.92471153Z"
+    created: "2024-08-16T15:56:53.240244328Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -997,7 +1024,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: v1.6.1
-    created: "2024-08-16T15:55:42.922718486Z"
+    created: "2024-08-16T15:56:53.238231748Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -1031,7 +1058,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: 1.2.0
-    created: "2024-08-16T15:55:42.951304421Z"
+    created: "2024-08-16T15:56:53.264980048Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -1064,7 +1091,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: 1.2.0
-    created: "2024-08-16T15:55:42.948466253Z"
+    created: "2024-08-16T15:56:53.262954674Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -1097,7 +1124,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: 1.3.0
-    created: "2024-08-16T15:55:42.946635312Z"
+    created: "2024-08-16T15:56:53.261098848Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -1130,7 +1157,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: v2.0.9200
-    created: "2024-08-16T15:55:42.96279084Z"
+    created: "2024-08-16T15:56:53.277453737Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1167,7 +1194,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: v2.0.9200
-    created: "2024-08-16T15:55:42.956103087Z"
+    created: "2024-08-16T15:56:53.270723376Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -1200,7 +1227,7 @@ entries:
           description: race condition in backup script
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-08-16T15:55:42.975815774Z"
+    created: "2024-08-16T15:56:53.290617633Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -1230,7 +1257,7 @@ entries:
             Update cronjobs to v1. Min K8s version is 1.21
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-08-16T15:55:42.97368897Z"
+    created: "2024-08-16T15:56:53.287596438Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -1260,7 +1287,7 @@ entries:
             Fix backup volume broken with the upgrade to 4.0.0
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-08-16T15:55:42.971579238Z"
+    created: "2024-08-16T15:56:53.285447712Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -1293,7 +1320,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-08-16T15:55:42.968620813Z"
+    created: "2024-08-16T15:56:53.283370991Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -1327,7 +1354,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-08-16T15:55:42.966640974Z"
+    created: "2024-08-16T15:56:53.281362058Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -1361,7 +1388,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-08-16T15:55:42.964708693Z"
+    created: "2024-08-16T15:56:53.279447171Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -1384,4 +1411,4 @@ entries:
     urls:
     - https://angelnu.github.io/helm-charts/apps/zalando-postgres-cluster-1.0.0.tgz
     version: 1.0.0
-generated: "2024-08-16T15:55:42.851467251Z"
+generated: "2024-08-16T15:56:53.16549023Z"
